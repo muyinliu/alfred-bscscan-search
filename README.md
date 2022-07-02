@@ -1,8 +1,8 @@
-# Alfred Etherscan Search
+# Alfred BscScan Search
 
-Alfred workflow to quickly search addresses, transactions, and ENS Domains on Etherscan
+Alfred workflow to quickly search addresses, transactions, and ENS Domains on BscScan
 
-- [Alfred Etherscan Search](#alfred-etherscan-search)
+- [Alfred BscScan Search](#alfred-bscscan-search)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -12,19 +12,18 @@ Alfred workflow to quickly search addresses, transactions, and ENS Domains on Et
 ## Installation
 
 1. Download the `.alfredworkflow` file from the
-[GitHub releases](https://github.com/mds1/alfred-etherscan-search/releases/latest) page
+[GitHub releases](https://github.com/muyinliu/alfred-bscscan-search/releases/latest) page
 2. Double-click the file to install
 
 ## Usage
 
-The default keyword is `es`, but this can be changed if desired. Examples usage:
+The default keyword is `bs`, but this can be changed if desired. Examples usage:
 
-| Command                | Description                                                                                                                                                                                       |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `es <address>`         | Opens the provided address on Etherscan.                                                                                                                                                          |
-| `es <transactionHash>` | Opens the provided transaction hash on Etherscan.                                                                                                                                                 |
-| `es <ensDomain>`       | Opens the provided ENS domain on Etherscan.<br>Supports subdomains, and the `.eth` suffix<br>will be added automatically if not provided.                                                         |
-| `es <tokenName>`       | Opens the provided token on Etherscan. Supported<br>values for `tokenName` include `dai`, `chai`, `sai`,<br>`usdc`, `usdt` or `tether`, `mkr` or `maker`, `cdai`,<br>`csai`, `cusdc`, and `ceth`. |
+| Command                | Description                                                                                                         |
+|------------------------|---------------------------------------------------------------------------------------------------------------------|
+| `bs <address>`         | Opens the provided address on BscScan.                                                                              |
+| `bs <transactionHash>` | Opens the provided transaction hash on BscScan.                                                                     |
+| `bs <tokenName>`       | Opens the provided token on BscScan. Supported<br>values for `tokenName` include `dai`, `usdc`, `usdt` or `tether`. |
 
 ## License
 
